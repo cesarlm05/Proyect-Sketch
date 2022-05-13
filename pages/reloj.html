@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- Estilos -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link id="theme" rel="stylesheet" href="assets/css/green.css" />
+     <!-- Moment -->
+     <script src="assets/javascripts/librerias/moment.js"></script>
+     <script src="assets/javascripts/librerias/moment-with-locales.js"></script>
+    <!-- JQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <!-- <script src="assets/javascripts/librerias/jquery-3.4.1.js"></script> -->
+    <title>Proyecto</title>
+  </head>
+  <body>
+    <!-- Selector de Theme -->
+    <div id="select-theme">
+      <div id="to-green"></div>
+      <div id="to-yellow"></div>
+      <div id="to-blue"></div>
+    </div>
+    <section id="global">
+      <!-- Cabecera -->
+      <header>
+        <div id="logo">
+          <h1>Proyecto JS</h1>
+        </div>
+        <samp id="bienvenido"></samp>
+        <div class="clearfix"></div>
+        <nav id="menu">
+          <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <!--<li><a href="reloj.html">Reloj</a></li>-->
+            <li><a href="about.html">Sobre Mi</a></li>
+            <!--<li><a href="contact.html">Contacto</a></li>-->
+          </ul>
+        </nav>
+      </header>
+      <!-- Contenido -->
+      <section id="content">
+        <div id="box">
+          <!-- Carga del Reloj -->
+            <div id="reloj"></div>
+        </div>
+        <aside id="sidebar">
+          <div id="about">
+            <h4>Mi pasion es el MTB</h4>
+            <img src="assets/img/frocky.jpg" alt="" />
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident
+              tenetur voluptate deleniti reprehenderit temporibus. Corrupti
+              incidunt perspiciatis amet necessitatibus, voluptas alias sed!
+              Quasi voluptates natus id libero totam incidunt delectus.
+            </p>
+          </div>
+          <div id="login">
+            <h4>Logueate aqui</h4>
+            <form action="" method="get">
+              <label for="name">Nombre: </label>
+              <input
+                type="text"
+                name="name"
+                id="form-name"
+                placeholder="Ingresa tu nombre"
+              />
+              <label for="email">Correo: </label>
+              <input type="text" name="email" placeholder="Ingresa tu email" />
+              <label for="password">Contraseña: </label>
+              <input
+                type="password"
+                name="password"
+                placeholder="Ingresa la contraseña"
+              />
+              <input type="submit" value="Enviar" />
+            </form>
+          </div>
+        </aside>
+        <div class="clearfix"></div>
+      </section>
+    </section>
+    <footer>
+      Creacion de Cesar Luis Medina &copy;
+      <a href="#" class="subir">Subir</a>
+    </footer>
+    <!-- <script src="assets/javascripts/librerias/jquery-3.4.1.js"></script> -->
+    <!-- Script principal -->
+    <script src="assets/javascripts/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,28 @@
+body {
+    background: url('../img/cleanParts.jpg');
+    background-attachment: fixed;
+}
+#global {
+    background: rgb(194, 194, 194);
+}
+#logo {
+    background: #e11111;
+    color: rgb(163, 163, 163);
+}
+#menu ul li:hover {
+    background: #e11111;
+}
+#menu a {
+    color: rgb(163, 163, 163);
+}
+.btn-more {    
+    background: #e11111;
+    color: rgb(163, 163, 163);
+}
+#select-theme {
+    background: rgba(96, 27, 27, 0.5);       
+}
+footer {
+    color: rgb(182, 182, 182);
+    background: rgb(96, 27, 27, 0.5);
+}

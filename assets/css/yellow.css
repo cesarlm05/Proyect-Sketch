@@ -1,0 +1,28 @@
+body {
+    background: url('../img/yellow.jpg');
+    background-attachment: fixed;
+}
+#global {
+    background: rgb(183, 188, 143);
+}
+#logo {
+    background: rgb(162, 165, 3);
+    color: rgb(183, 188, 143);
+}
+#menu ul li:hover {
+    background: rgb(162, 165, 3);
+}
+#menu a {
+    color: rgb(183, 188, 143);
+}
+.btn-more {    
+    background: rgb(162, 165, 3);
+    color: rgb(183, 188, 143);
+}
+#select-theme {
+    background: rgba(162, 165, 3, 0.5);    
+}
+footer {
+    color: rgb(77, 56, 0);
+    background: rgb(162, 165, 3, 0.70);
+}

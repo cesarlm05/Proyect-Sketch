@@ -1,0 +1,28 @@
+body {
+    background: url('../img/photo_3.jpg');
+    background-attachment: fixed;
+}
+#global {
+    background: rgb(150, 176, 190);
+}
+#logo {
+    background: #1F87C4;
+    color: rgb(150, 176, 190);
+}
+#menu ul li:hover {
+    background: #1F87C4;
+}
+#menu a {
+    color: rgb(150, 176, 190);
+}
+.btn-more {    
+    background: #1F87C4;
+    color: rgb(150, 176, 190);
+}
+#select-theme {
+    background: rgb(31, 135, 196, 0.5);      
+}
+footer {
+    color: rgb(0, 6, 90);
+    background: rgb(31, 135, 196, 0.70);
+}
